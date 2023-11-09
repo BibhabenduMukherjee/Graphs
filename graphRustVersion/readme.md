@@ -1,4 +1,4 @@
-## 1 . Graph as input in the form of an adjacency matrix
+## [1 . Graph as input in the form of an adjacency matrix ](https://github.com/BibhabenduMukherjee/Graphs/blob/main/graphRustVersion/GraphInputAdjMatrix.rs)
 
 - We first read the number of vertices in the graph from the user.
 

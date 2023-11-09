@@ -1,7 +1,7 @@
 package graphJavaVersion;
 import java.util.Scanner;
 //here is an example of how to create an adjacency matrix and take input of a graph in Java:
-public class InputGraph {
+public class GraphInputAdjMatrix {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
