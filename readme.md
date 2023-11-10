@@ -32,3 +32,4 @@
   - Prim's Algorithm
   - Disjoint Set [Union by Rank]
   - Accounts merge
+  - Kruskal's Algorithm
