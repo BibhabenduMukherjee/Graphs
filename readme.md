@@ -8,7 +8,7 @@
 
 ## List of All Concepts
 - Graph Representation | C++
-- Connected Components | Logic Explanation
+- Connected Components | Logic Explanation only
 - BFS,DFS Overview
 - Problems on BFS and DFS (Word Ladder1/2 , Bipertite Graph,Cycle detection ...)
 - Problems on Toposort (Topo Sort, Kahn's Algo ...)
