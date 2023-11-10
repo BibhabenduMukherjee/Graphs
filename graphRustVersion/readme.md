@@ -18,3 +18,9 @@ let mut adjacency_matrix = vec![vec![0; num_vertices]; num_vertices];
 
 
 ![Animated Gif](https://lh6.googleusercontent.com/RJXRgXqBBveetZajhikyA8q29MhMzKKDUXH0WuQb9-k7owhUIi6rZxqvyU-gNicg7HqRYHOE44_C5ojbCpQlbi0QDIn2ZuwWUA6LD5wYSWz6ehdDthINzqofzZ5NZJyEbShmYhJmn7j7IZFlhvyh_uY)
+
+## Adjacency matrices have the following benefits:
+  - Simple and easy to understand
+  - Fast edge lookup (Adjacency matrices provide constant time access to any edge in the graph)
+  - Ease of implementation
+  - Compatibility with matrix operations
