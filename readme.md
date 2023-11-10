@@ -28,6 +28,7 @@
   - Shortest Path in UG with unit weights
   - Shortest Path in UG with unit weights
 
-- Minimum Spanning Tree  dd
+- Minimum Spanning Tree 
   - Prim's Algorithm
   - Disjoint Set [Union by Rank]
+  - Accounts merge
