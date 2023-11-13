@@ -9,7 +9,7 @@ fn main() {
     let num_vertices: usize = num_vertices.trim().parse().expect("Invalid input for number of vertices");
 
     // Initialize an empty adjacency list
-    let  adjacency_list: HashMap<usize, Vec<usize>> = HashMap::new();
+    let mut adjacency_list: HashMap<usize, Vec<usize>> = HashMap::new();
 
     // Read the adjacency list values
     println!("Enter the adjacency list (vertex followed by its neighbors, space-separated):");
