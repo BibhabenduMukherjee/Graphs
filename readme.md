@@ -51,4 +51,4 @@
 Component 1: {A, B, C}
 Component 2: {D, E} and {F, G} are separate isolated components as there are no connections between them or to the rest of the nodes.
  
-Each node within a connected component can reach any other node in the same component by traversing edges in the graph. Components can vary in size, from a single node (in the case of isolated nodes) to encompassing the entire graph.
+Each node within a connected component can reach any other node in the same component by traversing edges in the graph. Components can vary in size, from a single node (in the case of isolated nodes) to encompassing the entire graph
