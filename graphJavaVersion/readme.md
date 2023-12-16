@@ -33,6 +33,23 @@ This block of code creates a new Scanner object to read input from the user. It 
 This for loop reads the edges of the graph from the user and updates the adjacency matrix accordingly. For each edge, the loop sets the corresponding element in the adjacency matrix to 1. For undirected graphs, the loop also sets the corresponding element in the reverse direction to 1.
 
 
+```java
+
+        System.out.println("The adjacency matrix is:");
+        for (int i = 0; i < numVertices; i++) {
+            for (int j = 0; j < numVertices; j++) {
+                System.out.print(adjacencyMatrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+        scanner.close();
+
+
+```
+This block of code prints the adjacency matrix to the console. It then closes the Scanner object.
+
+Overall, the code creates an adjacency matrix for a graph based on the input provided by the user.
+
 
 ### Animation 
 
