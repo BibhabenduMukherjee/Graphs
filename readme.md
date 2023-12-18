@@ -60,10 +60,11 @@ Breadth-First Search (BFS) is a graph traversal algorithm used to systematically
    - Choose a starting node
    - Initialize data structures
    - Enqueue the starting node 
-   - Iterate until the queue is empty
+   - Iterate until the queue is empty:
+
      - Dequeue a node from the front of the queue.
      - Visit the dequeued node and process it (or collect its information).
      - Enqueue all unvisited neighboring nodes of the dequeued node.
      - Mark each newly visited node as visited and enqueue it.
-     
+
 ![Animated Gif](https://lh5.googleusercontent.com/JKY4V8OZEs5L68Mh2ZY5ZqiqGkaj8esWnTEUwEdygFQdRFowh7aCWpibaPRqkcR3SHBh2Q4Io856f2fAzM5Ae3nD2uLj7AEU3NnQfZ55E2ni0EzXceoVTJtHzqGlUhQ9-izy5Y0v1DK0xIQ4vUxs9Ds)
