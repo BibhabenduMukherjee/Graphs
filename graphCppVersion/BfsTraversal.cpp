@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
+ int vis[100] = {0}; 
 using namespace std;
 
 class Solution {
   public:
     // Function to return Breadth First Traversal of given graph.
     vector<int> bfsOfGraph(int V, vector<int> adj[]) {
-        int vis[V] = {0}; 
+       // int vis[V] = {0}; 
         vis[0] = 1; 
         queue<int> q;
         // push the initial starting node 
