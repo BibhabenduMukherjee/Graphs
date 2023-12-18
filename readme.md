@@ -52,3 +52,18 @@ Component 1: {A, B, C}
 Component 2: {D, E} and {F, G} are separate isolated components as there are no connections between them or to the rest of the nodes.
  
 Each node within a connected component can reach any other node in the same component by traversing edges in the graph. Components can vary in size, from a single node (in the case of isolated nodes) to encompassing the entire graph
+
+- ###  BFS Traversal 
+
+Breadth-First Search (BFS) is a graph traversal algorithm used to systematically explore a graph's nodes, layer by layer. Beginning from a chosen starting node, BFS iteratively visits adjacent nodes before moving deeper. It employs a queue to maintain the order of nodes to visit, ensuring all nodes at a particular level are explored before moving to the next level. BFS discovers the shortest path between nodes in unweighted graphs and efficiently finds if a path exists between two nodes.
+
+   - Choose a starting node
+   - Initialize data structures
+   - Enqueue the starting node 
+   - Iterate until the queue is empty
+     - Dequeue a node from the front of the queue.
+     - Visit the dequeued node and process it (or collect its information).
+     - Enqueue all unvisited neighboring nodes of the dequeued node.
+     - Mark each newly visited node as visited and enqueue it.
+     
+![Animated Gif](https://lh5.googleusercontent.com/JKY4V8OZEs5L68Mh2ZY5ZqiqGkaj8esWnTEUwEdygFQdRFowh7aCWpibaPRqkcR3SHBh2Q4Io856f2fAzM5Ae3nD2uLj7AEU3NnQfZ55E2ni0EzXceoVTJtHzqGlUhQ9-izy5Y0v1DK0xIQ4vUxs9Ds)
